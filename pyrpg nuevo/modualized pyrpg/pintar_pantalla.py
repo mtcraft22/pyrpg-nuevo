@@ -1,13 +1,13 @@
-import colores_e_estilos
-import pintar_vara_vida
 import os
 import time
+
+import pintar_vara_vida
 
 piso = 45
 aciones = ["atacar", "esquivar"]
 
 
-def actalizar_pantalla(aciones):
+def actualizar_pantalla(aciones):
     os.system("cls")
     print(" ")
     print(" ", end="")
@@ -25,8 +25,7 @@ def actalizar_pantalla(aciones):
         a += 1
 
 
-actalizar_pantalla(aciones)
+actualizar_pantalla(aciones)
 aciones.append("objecto")
 time.sleep(5)
-actalizar_pantalla(aciones)
-
+actualizar_pantalla(aciones)

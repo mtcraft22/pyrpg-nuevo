@@ -1,10 +1,12 @@
-import colores_e_estilos
 import math
+
+import colores_e_estilos
+
+
 # esta parte esta echa por alejandro garcia, esta adaptada a mis nesecidades
 
 
-
-def draw_hp_bar(v_max, v_act,nombre, scale=1):
+def draw_hp_bar(v_max, v_act, nombre, scale=1):
     print(f"{nombre} [", end="")
     color = colores_e_estilos.verde.clear
     p = v_act / v_max
